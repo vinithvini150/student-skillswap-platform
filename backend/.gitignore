@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Secret files
+.env
+.env.*
+!.env.example
+
+# Frontend build files
+frontend/dist/
+
+# Electron build files
+frontend/release/
+
+# Android generated project/build files
+frontend/android/
+
+# Uploaded user images
+backend/uploads/
+
+# Logs
+*.log
+npm-debug.log*
