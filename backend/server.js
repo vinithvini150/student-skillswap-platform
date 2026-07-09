@@ -49,7 +49,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
 
 /* Parse JSON request bodies */
 app.use(express.json());
